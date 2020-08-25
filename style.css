@@ -5,3 +5,10 @@
     border-style: solid;
     border-color: black;
 }
+.mainBlock {
+    height: 250px;
+}
+
+.fiveDay {
+    height: 150px;
+}
