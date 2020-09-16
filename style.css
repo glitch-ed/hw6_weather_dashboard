@@ -1,14 +1,83 @@
-.header {
-    text-align: center;
+body {
+    background-color: lightblue;
 }
-.grid {
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+.header-title{
+    background-color: lightgrey;
+    border-width: 5px;
     border-style: solid;
-    border-color: black;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
-.mainBlock {
-    height: 250px;
+#searchArea{
+    background-color: lightgrey;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-top: 5px;
+
+}
+#mainCity{
+    background-color: lightgray;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    padding-top: 5px;
+    
+}
+#searchBtn{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.cityHistory{
+    margin-bottom: 10px;
+    
+}
+#savedCity{
+    width: 250px;
+}
+.daily{
+    width: 135px;
+    height: 175px;
+    color: white;
+    background-color: rgb(57, 57, 247);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 8px;
+    float: left;
+}
+#forecast{
+    align-content: center;
+}
+.iconBg{
+    background-color: lightgray;
+    border-radius: 3px;
+}
+.uvLow{
+    background-color: green;
+    width: 125px;
+    border-radius: 3px;
+}
+.uvFavorable{
+    background-color: yellow;
+    width: 125px;
+    border-radius: 3px;
+}
+.uvModerate{
+    background-color: orange;
+    width: 125px;
+    border-radius: 3px;
+}
+.uvSevere{
+    background-color: red;
+    width: 125px;
+    border-radius: 3px;
 }
 
-.fiveDay {
-    height: 150px;
-}
+
